@@ -3,6 +3,12 @@
   command = "npm run build"
 
 [[redirects]]
+  from = "/api/*"
+  to = "https://script.google.com/macros/s/AKfycbw1CNlNVYhTSoGrEGZe9gN_B73riDFpXsKDYjzXXIrDhSyh7L2Rp6VlEdMllm2JDheTYw/exec"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
