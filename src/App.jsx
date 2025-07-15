@@ -11,7 +11,7 @@ import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@
 import { Users, DollarSign, BookOpen, CheckSquare, Calendar, Plus, Search, Edit, Trash2 } from 'lucide-react'
 import './App.css'
 
-const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbx5FWj9VrwO1SPVT3wINDGPPY3sCV2k47krZ9-AN_tzvCXW-sxWyvk7B_-xmaXLBdTWxA/exec'
+const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbw1CNlNVYhTSoGrEGZe9gN_B73riDFpXsKDYjzXXIrDhSyh7L2Rp6VlEdMllm2JDheTYw/exec'
 
 function App() {
   const [activeTab, setActiveTab] = useState('dashboard')
